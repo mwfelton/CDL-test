@@ -2,27 +2,31 @@
     "stock": [ 
         { 
             "sku":"A", 
-            "product-name": "Apple", 
+            "product-name": "Clementine", 
             "price": 0.50,
-            "special-price": true  
+            "special-price": true,
+            "product-image": "assets/images/clementine.jpeg"
         }, 
         { 
             "sku":"B", 
-            "product-name": "Mango", 
+            "product-name": "Banana", 
             "price": 0.30,
-            "special-price": true  
+            "special-price": true,
+            "product-image": "assets/images/banana.jpeg"  
         }, 
         { 
             "sku":"C", 
-            "product-name": "Pineapple", 
+            "product-name": "Lemon", 
             "price": 0.20,
-            "special-price": false  
+            "special-price": false,
+            "product-image": "assets/images/lemon.jpeg" 
         }, 
         { 
             "sku":"D", 
-            "product-name": "Papaya", 
+            "product-name": "Melon", 
             "price": 0.15,
-            "special-price": false  
+            "special-price": false,
+            "product-image": "assets/images/melon.jpeg"
         } 
     ]   
 }
