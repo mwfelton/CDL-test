@@ -1,0 +1,28 @@
+{
+    "stock": [ 
+        { 
+            "sku":"A", 
+            "product-name": "Apple", 
+            "price": 0.50,
+            "special-price": true  
+        }, 
+        { 
+            "sku":"B", 
+            "product-name": "Mango", 
+            "price": 0.30,
+            "special-price": true  
+        }, 
+        { 
+            "sku":"C", 
+            "product-name": "Pineapple", 
+            "price": 0.20,
+            "special-price": false  
+        }, 
+        { 
+            "sku":"D", 
+            "product-name": "Papaya", 
+            "price": 0.15,
+            "special-price": false  
+        } 
+    ]   
+}
