@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.main{
+    width:100%;
+    height: 70vw;
+    border: solid red 5px;
+    display: flex;
+}
+
+.products{
+    height: 100%;
+    width: 70%;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+.products h3{
+    padding: 10px;
+}
+
+.cart{
+    height: 100%;
+    width: 30%;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+#product-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-card {
+    width: 100%;
+    height: auto;
+    border: solid black 2px;
+    margin: 10px;
+    background-color: #56CCF2;
+    text-align: center;
+}
+
+.product-card img{
+    width: 100%;
+    padding: 5px;
+}
+
+.addButton{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+#cart-cards{
+ display: flex;
+ flex-direction: column;
+}
+
+.cart-item{
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    border: solid black 1px;
+    margin: 5px 0 5px 0;
+}
+
+.cart-item img{
+    max-width: 100%;
+}
+
+.cart-card-right{
+    width: 60%;
+}
+
+.cart-card-left{
+    width: 40%;
+}
+
+.product-info{
+    display: flex;
+    padding:  0 10px 0 10px;
+    justify-content: space-between;
+}
+
+.units{
+    display: flex;
+    padding:  0 100px 0 10px;
+    justify-content: space-between;
+}
+
+.icrement-btn{
+    margin: 0 10px 0 10px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-top: solid black 2px;
+}
